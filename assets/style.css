@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    padding-top: 4rem;
+}
+
+p {
+    padding-top: 2rem;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 900px;
+    gap: 1rem;
+    padding-top: 3rem;
+}
+
+li {
+    width: calc((100% / 3) - 1rem);
+    list-style: none;
+}
+
+img {
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+}
