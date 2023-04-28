@@ -45,7 +45,7 @@ function print(arr, eleContainer) {
 	eleContainer.innerHTML = '';
 	for (let i = 0; i < arr.length; i++) {
 		let date = arr[i];
-		eleContainer.innerHTML += `<li>${date.photo} ${date.firstName} ${date.lastName} ${date.job}</li>`;
+		eleContainer.innerHTML += `<li>${date.photo} <div>${date.firstName} ${date.lastName}</div> ${date.job}</li>`;
 	}
 };
 
